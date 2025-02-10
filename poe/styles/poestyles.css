@@ -1,0 +1,26 @@
+body {
+max-width: 60em;
+margin: 0 auto 0 auto;
+}
+
+h1 { 
+  background-color: red; /* I thought the red on black would be a good combination, especially knowing Poe */
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+h2 {
+  background-color: black;
+  color: red;
+}
+
+p {
+  background-image: url("/images/heart.jpg"); /*I struggled with this the most for some reason. I could not get the image to either appear or appear correctly*/
+  text-align: center;
+  font-family: "Times New Roman", Times, serif; /*I found font fallbacks an interesting concept. It does make me wonder what causes the need for fallbacks*/
+}
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #000;
+padding: 1em;
+}
