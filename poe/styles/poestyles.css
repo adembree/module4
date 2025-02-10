@@ -14,7 +14,7 @@ h2 {
 }
 
 p {
-  background-image: url("/images/heart.jpg"); /*I struggled with this the most for some reason. I could not get the image to either appear or appear correctly*/
+  background-image: url("../images/heart.jpg"); /*I struggled with this the most for some reason. I could not get the image to either appear or appear correctly*/
   text-align: center;
   font-family: "Times New Roman", Times, serif; /*I found font fallbacks an interesting concept. It does make me wonder what causes the need for fallbacks*/
 }
